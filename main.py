@@ -1,5 +1,12 @@
+import os  # F401: unused import
+
+
 def main():
-    print("Hello from dsc190-github-actions-05!")
+    unused_value = 123  # F841: unused local variable
+    try:
+        print("Testing broken lint")
+    except:  # E722: bare except
+        pass
 
 
 if __name__ == "__main__":
