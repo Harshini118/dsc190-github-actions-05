@@ -1,5 +1,5 @@
 def main():
-    print("Hello from dsc190-github-actions-05!")
+    print("Hello from GitHub Actions!")
 
 
 if __name__ == "__main__":
